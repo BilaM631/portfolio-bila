@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--boootstrap-icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--boootstrap-icons-->
+    <link rel="stylesheet" href="style.css">
+    <title>Portofolio Bila</title> 
+</head>
+<body>
+    <header>
+      <div class="interface">
+        <div class="logo">
+            <a href="#">
+                <img src="imagens/Captura de tela 2024-11-27 010121.png" height="40px" width="40px" alt="Logo do Portofolio">
+            </a>
+        </div><!--logo-->
+        <nav class="manu-desktop">
+            <ul>
+                <li><a href="#topo-do-site">Iniciar</a></li>
+                <li><a href="#Especialidades">Especialidades</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#Portfolio">Projetos</a></li>
+            </ul>
+        </nav>
+
+        <div class="btn-contato">
+            <a href="javascript:void(0);" onclick="escolherContato()">
+                <button>Contactos</button>
+            </a>
+            
+            <script>
+                function escolherContato() {
+                    const escolha = confirm(
+                        "Como deseja entrar em contato?\n\n" +
+                        "OK para WhatsApp\n" +
+                        "Cancelar para chamada"
+                    );
+            
+                    // Verifica a escolha e redireciona para o link apropriado
+                    if (escolha) {
+                        // Redireciona para WhatsApp
+                        window.open("https://wa.me/258855933983", "_blank");
+                    } else {
+                        // Redireciona para chamada telefônica
+                        window.location.href = "tel:+258873110960";
+                    }
+                }
+            </script>
+            
+        </div><!--bnt contato-->
+      </div><!--interface-->
+    </header>
+    
+    <main>
+        <section id="topo-do-site" class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                <div class="txt-topo-portfolio">
+                    <h1>BEM VINDO AO MEU PORTFOLIO <span>.</span></h1>
+                    <h2>Vagner Mahaca Bila</h2>
+                    <p>Bem-vindo ao meu Portfolio. Aqui, você encontrará uma apresentação detalhada das minhas competências,
+                        experiências e projetos desenvolvidos ao longo da minha trajectoria academica e profissional.
+                        Com um forte interesse em inovação e solução de problemas tecnológicos, dedico-me a criar, gerenciar e otimizar 
+                        sistemas que impulsionaram a eficiência e a transformação digital em diversos contextos, com mais gosto em criar 
+                        web sites. Também dedico me a criar, gerir e manter  redes de pequenas e grandes dimensões. <br> Como também presto serviços como eletrecísta. 
+                    </p>
+                    <div class="btn-contato">
+                        <a href="tel:+258855833983">
+                            <button>Entre em contato</button>
+                        </a>
+                    </div>
+                </div><!--txt-topo-portfolio-->
+                
+                <div class="img-topo-portfolio">
+                    <img src="imagens/Imagem do WhatsApp de 2024-11-27 à(s) 03.49.41_28de14fe.jpg" height="300px" width="300px"  alt="">
+                </div><!--img-topo-portfolio-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section id="Especialidades" class="Especialidades">
+            <div class="interface">
+                <h3 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h3>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <img src="imagens/desenvolvedor-web.jpg" height="80px" width="80px" alt="websites">
+                        <h4>websites</h4>
+                        <p>Sou gerenciador de websites, especializado em criar, desenvolver e otimizar sites com foco em design, usabilidade e performance. Meu objetivo é garantir que cada projeto atenda às necessidades do cliente, proporcionando uma presença online sólida e de alto desempenho.</p>
+                    </div><!--especialidades-box-->
+                    <div class="especialidades-box">
+                        <img src="imagens/istockphoto-165731607-612x612.jpg" height="80px" width="80px" alt="Redes">
+                        <h4>Redes</h4>
+                        <p>Sou especialista em projetar, implementar e otimizar redes de diferentes dimensões, garantindo eficiência, segurança e escalabilidade. Com experiência em atender às necessidades específicas de cada projeto, ofereço soluções adaptadas e de alta performance.</p>
+                    </div><!--especialidades-box-->
+                    <div class="especialidades-box">
+                         <img src="imagens/Curso-de-Eletricista-Eletrize-o-Seu-Futuro-com-Formacao-Eletrica.webp" height="80px" width="80px" alt="Eletricidade">
+                        <h4>Eletricidade</h4>
+                        <p>Para além de ser especializado em algumas aréa de TI, também sou eletricista com experiência em instalações, manutenção e reparos elétricos, sempre priorizando segurança, qualidade e eficiência.</p>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div>!<!--interface-->
+        </section><!--especialidades-->
+        
+        <section id="sobre" class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="imagens/minha foto 1.jpg" alt="Vagner-Foto" height="400px" width="400px">
+                    </div><!--img-sobre-->
+
+                    <div class="text-sobre">
+                        <h3>MUITO PRAZER, <span>SOU VAGNER BILA</span></h3>
+                        <p>Sou formando de ITC, tenho 17 anos, morro no bairro de Matlemele, estou me formando como Tecnico de Suporte Informatico, e durante essa formação adquiri conhecimento para criar, projectar e manter, redes de pequenas dimensões e grandes dimensões, como também webdsites.</p>
+                        <p>No ano passado também como formando do ITC me formei como Tecnico de Electridade Industrial, tendo desenvolvido pequenas habilidades para projectar e fazer pequenas instalações, como também reparar e fazer a manunteção de eletrodomesticos.</p>
+                        <div class="btn-social">
+                            <a href="CV Vagner Bila 3.pdf" target="_blank"> <button>CV</button>
+                            <a href="https://www.instagram.com/vagnerbila" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://wa.me/258855933983" target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section id="Portfolio" class="Portfolio">
+            <div class="interface">
+                <h3 class="titulo">MEU <span>PORTFOLIO.</span></h3>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(imagens/site\ 3.jpeg);">
+                        <div class="overlay">Projecto1</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(imagens/site\ 3.jpeg);">
+                        <div class="overlay">Projecto2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(imagens/site\ 3.jpeg);">
+                        <div class="overlay">Projecto3</div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+        <section class="formulario">
+            <div class="interface">
+                <h3 class="titulo">FALA<span>COMIGO.</span></h3>
+
+                <form action="mailto:vagnermahacabila@gmail.com" method="post" enctype="text/plain">
+                   <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+                   <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                   <input type="text" name="" id="" placeholder="Seu celular:">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+
+    </main>
+    <footer>
+        <div class="interface">
+            <div class="line footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                    <img src="imagens/Captura de tela 2024-11-27 010121.png"  height="40px" width="40px" alt="logo"> 
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/vagnerbila" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://wa.me/258855933983" target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-at-fill"></i> <a href="mailto:vagnermahacabila@gmail.com">vagnermahacabila@gmail.com</a></p>
+              </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+</body>
+</html>
